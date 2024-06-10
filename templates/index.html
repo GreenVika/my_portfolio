@@ -1,0 +1,31 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+    </header>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Sharon Vivi is an enthusiatic Statistician,Data Scientist and Software Developer</p>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>Project 1</li>
+            <li>Project 2</li>
+            <li>Project 3</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>phone:0707137207</h2>
+        <p>Email: <a href="mailto:your-email@example.com">sharonvivi001@gmail.com</a></p>
+    </section>
+</body>
+</html>
